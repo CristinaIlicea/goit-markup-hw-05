@@ -50,7 +50,7 @@ img {
     list-style-type: none;
 }
 .nav {
-    color: var(--brand-color-ocean);
+    color: #434455;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -62,12 +62,12 @@ img {
 .nav-link {
     padding: 24px 0;
 }
-.nav:focus {
-    color: var(--brand-color-ocean)
-}
-.nav:hover {
+.nav:focus, .nav:hover, .nav:active {
     color: var(--brand-color-ocean);
+    border-color: var(--brand-color-ocean);
+    border-radius: 2px;
 }
+
 .nav::after {
     content: '';
     position: absolute;
